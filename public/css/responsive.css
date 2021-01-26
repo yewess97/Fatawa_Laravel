@@ -1,0 +1,474 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 1380px) {
+    .header {
+        width: 1200px;
+    }
+
+    .header_content {
+        width: calc(100% - 219px);
+    }
+
+    [dir="rtl"] .main_nav_container {
+        padding-right: 63px;
+    }
+
+    [dir="ltr"] .main_nav_container {
+        padding-left: 63px;
+    }
+
+    .header_side {
+        width: 219px;
+    }
+
+    .header_side span {
+        font-size: 14px;
+    }
+
+    .header_side img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hadith_background_img {
+        height: 48.776rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .header {
+        width: 90%;
+    }
+
+    .header_content {
+        width: 100%;
+    }
+
+    .header_side {
+        display: none !important;
+    }
+
+    .hero_slide_content h1 {
+        font-size: 56px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .register_content,
+    .contact_content {
+        width: 442px;
+    }
+
+    .hadith_background_img {
+        height: 48.776rem;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    [dir="rtl"] .hero_box {
+        padding-left: 20px;
+    }
+
+    [dir="ltr"] .hero_box {
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    [dir="rtl"] .main_nav_item {
+        margin-right: 33px;
+    }
+
+    [dir="ltr"] .main_nav_item {
+        margin-left: 33px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main_nav_container {
+        display: none !important;
+    }
+
+    .first-half {
+        display: none;
+    }
+
+    [dir="rtl"] .logo_container {
+        padding-left: 30px;
+    }
+
+    [dir="ltr"] .logo_container {
+        padding-right: 30px;
+    }
+
+    [dir="rtl"] .hamburger_container {
+        display: block;
+        left: 20px;
+    }
+
+    [dir="ltr"] .hamburger_container {
+        display: block;
+        right: 20px;
+    }
+
+    [dir="rtl"] .profile_hamburger_container {
+        display: block;
+        left: 20px;
+    }
+
+    [dir="ltr"] .profile_hamburger_container {
+        display: block;
+        right: 20px;
+    }
+
+    .hero_slide_content h1 {
+        font-size: 45px;
+    }
+
+    .hero_boxes {
+        width: 100%;
+        height: auto;
+        padding-top: 117px;
+    }
+
+    [dir="rtl"] .hero_boxes_inner {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    [dir="ltr"] .hero_boxes_inner {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+
+    [dir="rtl"] .hero_box {
+        padding-left: 50px;
+    }
+
+    [dir="ltr"] .hero_box {
+        padding-right: 50px;
+    }
+
+    .hero_box_col {
+        margin-bottom: 30px;
+    }
+
+    .hero_box_col:last-child {
+        margin-bottom: 0;
+    }
+
+    .contact_section {
+        padding-top: 161px;
+        padding-bottom: 161px;
+    }
+
+    .register_content,
+    .contact_content {
+        width: 75%;
+    }
+
+    .newsletter_form_container {
+        width: 90%;
+    }
+
+    .footer_col {
+        margin-bottom: 30px;
+    }
+
+    .footer_col:last-child {
+        margin-bottom: 0;
+    }
+
+    .modal-dialog {
+        max-width: 600px;
+    }
+
+    .milestone_icon:not(.first-icon) {
+        margin-top: 4rem !important;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .menu {
+        top: 130px !important;
+    }
+
+    .menu_item {
+        margin-bottom: 16px !important;
+    }
+
+    .newsletter_email {
+        width: 100% !important;
+    }
+
+    .newsletter_submit_btn {
+        margin-top: 15px !important;
+    }
+
+    .my-questions-empty {
+        top: 18%;
+    }
+
+    .my-favourites-empty {
+        top: 15%;
+    }
+
+    .fatwa-sections {
+        font-size: 23px;
+    }
+
+    .specialize-name {
+        font-size: 18px;
+        margin: 0 14px !important;
+    }
+
+    .question-date {
+        display: none;
+    }
+
+    .site-title {
+        font-size: 1.2rem;
+    }
+
+    .question-section-title {
+        font-size: 1.2rem;
+    }
+
+    .question-date-txt {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .header {
+        height: 74px;
+    }
+
+    [dir="rtl"] .logo_container {
+        padding-left: 15px;
+    }
+
+    [dir="ltr"] .logo_container {
+        padding-right: 15px;
+    }
+
+    .logo_container {
+        margin-top: 1.5rem !important;
+    }
+
+    .logo img {
+        width: 7rem;
+    }
+
+    [dir="rtl"] .hamburger_container {
+        left: 20px;
+    }
+
+    [dir="ltr"] .hamburger_container {
+        right: 20px;
+    }
+
+    [dir="rtl"] .profile_hamburger_container {
+        left: 5px;
+    }
+
+    [dir="ltr"] .profile_hamburger_container {
+        right: 5px;
+    }
+
+    .my-questions-empty {
+        top: 18%;
+    }
+
+    .my-favourites-empty {
+        top: 15%;
+    }
+
+    .menu {
+        top: 70px !important;
+    }
+
+    .menu_item {
+        margin-bottom: 10px !important;
+    }
+
+    .menu_social_container {
+        margin-top: 50px;
+    }
+
+    [dir="rtl"] .menu_close_container {
+        left: 30px;
+        top: 34px;
+    }
+
+    [dir="ltr"] .menu_close_container {
+        right: 30px;
+        top: 34px;
+    }
+
+    .hero_slider_nav {
+        display: none;
+    }
+
+    .hero_slide_content {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card-title {
+        margin-top: 30px;
+    }
+
+    .card-title a {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+    .register_section,
+    .contact_section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .register_content,
+    .contact_content {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .register_text {
+        margin-top: 25px;
+    }
+
+    .register_button {
+        margin-top: 53px;
+    }
+
+    .hadith_background_img {
+        height: 48.776rem;
+    }
+
+    .footer_bar {
+        padding-top: 49px;
+        padding-bottom: 52px;
+    }
+
+    .footer_social {
+        margin-top: 20px;
+    }
+
+    .footer_copyright span {
+        font-size: 13px;
+    }
+
+    .menu_search {
+        width: 68% !important;
+    }
+
+    [dir="rtl"] .menu_social_item {
+        margin-right: 15px !important;
+    }
+
+    [dir="ltr"] .menu_social_item {
+        margin-left: 15px !important;
+    }
+
+    .profile {
+        font-size: 23px;
+    }
+
+    .profile-header-icon {
+        font-size: 26px;
+    }
+
+    .fatwa-sections {
+        font-size: 20px;
+    }
+
+    .specialize-name {
+        font-size: 18px;
+        margin: 0 12px !important;
+    }
+
+    .question-date {
+        display: none;
+    }
+
+    .site-title {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .header {
+        height: 60px;
+        top: 39px;
+    }
+
+    .hero_slide_content h1 {
+        font-size: 24px;
+    }
+
+    .hero_slide_content h1 span {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero_boxes {
+        padding-top: 80px;
+    }
+
+    [dir="rtl"] .hero_box {
+        padding-left: 15px;
+        height: 120px;
+    }
+
+    [dir="ltr"] .hero_box {
+        padding-right: 15px;
+        height: 120px;
+    }
+
+    .hero_box_content {
+        padding-top: 6px;
+    }
+
+    .hero_box img {
+        width: 45px;
+    }
+
+    .hero_box_title {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .hero_box_link {
+        font-size: 10px;
+    }
+
+    .question-date-txt {
+        display: none;
+    }
+
+    .question-id {
+        border: none !important;
+    }
+}
